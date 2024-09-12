@@ -1,9 +1,16 @@
-const Event = () => {
+import PropTypes from 'prop-types';
+
+
+const Event = ({color, event}) => {
   return (
-    <td className="Event">
-        <h5>test event name</h5>
+    <td className={'Event ' + color}>
+        <h5>{event}</h5>
     </td>
   )
-}
+};
+Event.propTypes = {
+    color: PropTypes.string.isRequired,
+    event: PropTypes.string.isRequired,
+  };
 
 export default Event

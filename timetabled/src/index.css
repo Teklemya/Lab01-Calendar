@@ -17,3 +17,19 @@ td {
 .time {
   height: 40px;
 }
+.Event{
+  width: 140px;
+}
+.Event h6, h5{
+  line-height: 0px;
+  align-content: center;
+}
+.pink{
+  background-color: #FFC0CB;
+}
+.blue{
+  background-color: #ADD8E6;
+}
+.green{
+  background-color: rgb(202, 245, 222);
+}
