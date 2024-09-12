@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import React from "react";
+import Event from "./Event";
 
 const Calendar = () => {
   return (
@@ -20,6 +19,7 @@ const Calendar = () => {
         <tbody>
           <tr>
             <td className="time">8:00 am</td>
+            <Event />
           </tr>
           <tr>
             {" "}
